@@ -4,6 +4,7 @@ var practiceItemTypes = ["practice"];
 //var progressBarText = "Your current progress"
 //var completionMessage = "数据传送完毕。 非常感谢您的参与！"
 
+var x = 6
 
 var defaults = [
     "Separator", {
