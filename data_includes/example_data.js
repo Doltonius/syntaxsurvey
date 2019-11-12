@@ -1,4 +1,4 @@
-var shuffleSequence = seq("setcounter","intro","practice", "presep", sepWith("sep", rshuffle(startsWith("A"),startsWith("V"), startsWith("C"))), "F", "exit");
+var shuffleSequence = seq("setcounter","intro","practice", "presep", sepWith("sep", rshuffle(startsWith("A"),startsWith("V"), startsWith("C"), "F")), "exit");
 var practiceItemTypes = ["practice"];
 
 //var progressBarText = "Your current progress"
@@ -71,7 +71,7 @@ var items = [
 ["A-W-W-R", aj, {s: "Which picture of himself did Mary wonder whether John saw it?"}],
 ["A-W-R-R", aj, {s: "This is the picture of himself that Mary wondered whether John saw it."}],
 ["A-W-T-R", aj, {s: "This picture of himself, Mary wondered whether John saw it."}],
-    
+
 ["A-C-W-G", aj, {s: "Which picture of himself did Mary make the claim that John saw?"}],
 ["A-C-R-G", aj, {s: "This is the picture that Mary made the claim that John saw."}],
 ["A-C-T-G", aj, {s: "This picture of himself, Mary made the claim that John saw."}],
@@ -106,7 +106,7 @@ var items = [
 ["V-W-W-R", aj, {s: "Which girl in his class did every teacher wonder whether you liked her?"}],
 ["V-W-R-R", aj, {s: "This is the girl in his class that every teacher wondered whether you liked."}],
 ["V-W-T-R", aj, {s: "This girl in his class, every teacher wondered whether you liked her."}],
-    
+
 ["V-C-W-G", aj, {s: "Which girl in his class did every teacher make the claim that you liked?"}],
 ["V-C-R-G", aj, {s: "This is the girl in his class that every teacher made the claim that you liked."}],
 ["V-C-T-G", aj, {s: "This girl in his class, every teacher made the claim that you liked."}],
@@ -141,7 +141,7 @@ var items = [
 ["C-W-W-R", aj, {s: "Which picture of John did he wonder whether you saw it?"}],
 ["C-W-R-R", aj, {s: "This is the picture of John that he wondered whether you saw it."}],
 ["C-W-T-R", aj, {s: "This picture of John, he wondered whether you saw it."}],
-    
+
 ["C-C-W-G", aj, {s: "Which picture of John did he make the claim that you saw?"}],
 ["C-C-R-G", aj, {s: "This is the picture of John that he made the claim that you saw."}],
 ["C-C-T-G", aj, {s: "This picture of John, he made the claim that you saw."}],
@@ -163,24 +163,24 @@ var items = [
 ["C-R-R-R", aj, {s: "This is the picture of John that he knew a boy who saw it."}],
 ["C-R-T-R", aj, {s: "This picture of John, he knew a boy who saw it."}],
 
-["F", aj, {s: "Which picture of John did he know a boy who saw?"}],
-["F", aj, {s: "This is the picture of John that he knew a boy who saw."}],
-["F", aj, {s: "This picture of John, he knew a boy who saw."}],
-["F", aj, {s: "Which picture of John did he know a boy who saw it?"}],
-["F", aj, {s: "This is the picture of John that he knew a boy who saw it."}],
-["F", aj, {s: "This picture of John, he knew a boy who saw it."}],
-["F", aj, {s: "Which picture of John did he know a boy who saw?"}],
-["F", aj, {s: "This is the picture of John that he knew a boy who saw."}],
-["F", aj, {s: "This picture of John, he knew a boy who saw."}],
-["F", aj, {s: "Which picture of John did he know a boy who saw it?"}],
-["F", aj, {s: "This is the picture of John that he knew a boy who saw it."}],
-["F", aj, {s: "This picture of John, he knew a boy who saw it."}],
-["F", aj, {s: "Which picture of John did he know a boy who saw?"}],
-["F", aj, {s: "This is the picture of John that he knew a boy who saw."}],
-["F", aj, {s: "This picture of John, he knew a boy who saw."}],
-["F", aj, {s: "Which picture of John did he know a boy who saw it?"}],
-["F", aj, {s: "This is the picture of John that he knew a boy who saw it."}],
-["F", aj, {s: "This picture of John, he knew a boy who saw it."}],
+["F", aj, {s: "Which picture of John has been hanging on the wall for so long?"}],
+["F", aj, {s: "This is the picture of John, and it has been taken at a long time."}],
+["F", aj, {s: "This picture of John, I would never recommends you seen it."}],
+["F", aj, {s: "Which picture of John is the best ones taken so far today?"}],
+["F", aj, {s: "This is the picture of John and the only picture he loves."}],
+["F", aj, {s: "This picture of John are what makes everyone satisfied."}],
+["F", aj, {s: "Which picture of John would you like to buy out of all these?"}],
+["F", aj, {s: "This is the picture of John that everyone wants to have one"}],
+["F", aj, {s: "This picture of John can bring fame and fortune to anyone who sees it."}],
+["F", aj, {s: "Which picture of John have being on displays recent days those week?"}],
+["F", aj, {s: "This is the picture of John that the boy who has seen it died."}],
+["F", aj, {s: "This picture of John, he has dreamt of having for a long time."}],
+["F", aj, {s: "Which picture of John would a boy try to tear off the wall?"}],
+["F", aj, {s: "This is the picture of John that Mary would like to buy one."}],
+["F", aj, {s: "This picture of John, I have seen many that looks like it."}],
+["F", aj, {s: "Which picture of John does John seem to love the most?"}],
+["F", aj, {s: "This is the picture of John which is so good that everyone loves it."}],
+["F", aj, {s: "This picture of John he has known for a long time."}],
 
 
 
