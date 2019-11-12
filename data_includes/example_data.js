@@ -12,7 +12,7 @@ var defaults = [
     },
 
     "AcceptabilityJudgment", {
-        as: ["1", "2", "3", "4", "5", "6", "7"],
+        as: ["1", "2", "3", "4", "5"],
         presentAsScale: true,
         instructions: "How acceptable is this sentence? Use number keys or click boxes to answer.",
         leftComment: "(Bad)", rightComment: "(Good)"
