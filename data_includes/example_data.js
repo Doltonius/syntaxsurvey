@@ -44,9 +44,11 @@ var items = [
 
 
 ["sep", Separator, { }],
-    ["practice", aj, {s: "John wonders that Mary is a singer."}],
+    ["practice", aj, {s: "John wonders that Mary is a singer.",
+                      instructions: null}],
     
-    ["practice", aj, {s: "John wonders if Mary is a singer."}],
+    ["practice", aj, {s: "John wonders if Mary is a singer.", 
+                      instructions: null}],
     
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
                     html: ["div",
