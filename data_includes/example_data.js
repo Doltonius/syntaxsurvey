@@ -14,8 +14,9 @@ var defaults = [
     "AcceptabilityJudgment", {
         as: ["1", "2", "3", "4", "5"],
         presentAsScale: true,
-        instructions: "How acceptable is this sentence? Use number keys or click boxes to answer.",
-        leftComment: "(Bad)", rightComment: "(Good)"
+        q: "How acceptable is this sentence? Use number keys or click boxes to answer.",
+        instructions: "Whenever you see '[i]' in a sentence, you must interpret the sentence in such a way that everything indexed with '[i]' covaries with each other.",
+        leftComment: "(Completely unacceptable)", rightComment: "(Completely acceptable)"
     },
 
     "Message", {
@@ -49,9 +50,9 @@ var items = [
     
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
                     html: ["div",
-                          ["p", "Whenever you see '[i]' in a sentence, you must interpret the sentence in such a way \n that everything indexed with '[i]' covaries with each other."],
+                          ["p", "Whenever you see '[i]' in a sentence, you must interpret the sentence in such a way that everything indexed with '[i]' covaries with each other."],
                           ["p", "Take the sentence 'Every boy[i] likes his[i] mother.' for example."],
-                          ["p", "In this case, you must interpret this sentence as \n 'for every x, x a boy, x likes x's mother.', and then give your acceptability judgement."],
+                          ["p", "In this case, you must interpret this sentence as 'for every x, x a boy, x likes x's mother.', and then give your acceptability judgement."],
                           ["p", "Press the spacebar to continue."]
                           ]}],
                           
