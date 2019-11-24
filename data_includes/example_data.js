@@ -46,7 +46,7 @@ var items = [
     ["practice", aj, {s: "John wonders that Mary is a singer."}],
     
     ["practice", aj, {s: "Every boy[i] likes his[i] mother.",
-                      q: "Whenever you see '[i]' in a sentence, you must interpret the sentence in such a way that everything indexed with '[i]' covaries with each other. In this case, you must interpret this sentence as 'for every x, x a boy, x likes x's mother.', and then give your acceptability judgement."}],
+                      q: "Whenever you see '[i]' in a sentence, you must interpret the sentence in such a way \n that everything indexed with '[i]' covaries with each other. \n In this case, you must interpret this sentence as \n 'for every x, x a boy, x likes x's mother.', \n and then give your acceptability judgement."}],
 
     ["practice", aj, {s: "John wonders if Mary if a singer."}],
     
