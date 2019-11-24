@@ -45,15 +45,21 @@ var items = [
 ["sep", Separator, { }],
     ["practice", aj, {s: "John wonders that Mary is a singer."}],
     
+    ["practice", aj, {s: "John wonders if Mary is a singer."}],
+    
+    ["practice", "Message", {consentRequired: false, transfer: "keypress",
+                    html: ["div",
+                          ["p", "Whenever you see '[i]' in a sentence, you must interpret the sentence in such a way \n that everything indexed with '[i]' covaries with each other."],
+                          ["p", "Take the sentence 'Every boy[i] likes his[i] mother.' for example."],
+                          ["p", "In this case, you must interpret this sentence as \n 'for every x, x a boy, x likes x's mother.', and then give your acceptability judgement."],
+                          ["p", "Press the spacebar to continue."]
+                          ]}],
+                          
     ["practice", aj, {s: "Every boy[i] likes his[i] mother.",
-                      q: "Whenever you see '[i]' in a sentence, you must interpret the sentence in such a way \n that everything indexed with '[i]' covaries with each other. 
-                      In this case, you must interpret this sentence as \n 'for every x, x a boy, x likes x's mother.', 
-                      and then give your acceptability judgement."}],
-
-    ["practice", aj, {s: "John wonders if Mary if a singer."}],
+                      instructions: "Whenever you see '[i]', you must read the sentence in the way \n that everything indexed with '[i]' covaries with each other. Here, you must take the reading 'for every x, x a boy, x likes x's mother.'"}],
     
     ["practice", aj, {s: "His[i] mother like every boy[i].",
-                      instructions: "Whenever you see '[i]' in a sentence, you must interpret the sentence in such a way that everything indexed with '[i]' covaries with each other. In this case, you must interpret this sentence as 'for every x, x a boy, x's mother likes x.', and then give your acceptability judgement."}],
+                      instructions: "Whenever you see '[i]', you must read the sentence in the way that everything indexed with '[i]' covaries with each other. Here, you must take the reading 'for every x, x a boy, x's mother likes x.'"}],
                       
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
                     html: ["div",
