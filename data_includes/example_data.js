@@ -43,11 +43,11 @@ var items = [
 
 
 ["sep", Separator, { }],
-    ["practice", aj, {s: "This is just a practice sentence to get you used to the method of presentation."}],
+    ["practice", aj, {s: "John wonders that Mary is a singer."}],
 
-    ["practice", aj, {s: "The cleaning lady working in the bathroom cursed himself for forgetting his wrench."}],
+    ["practice", aj, {s: "John wonders if Mary if a singer."}],
 
-    ["practice", aj, {s: "The pop star sang herself hoarse at the concert last night."}],
+    ["practice", aj, {s: "Every boy" + "i".sub() + " likes his" + "i".sub() + " mother."}],
 
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
                     html: ["div",
