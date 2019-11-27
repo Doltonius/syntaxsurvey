@@ -48,19 +48,13 @@ var items = [
                       instructions: null}],
                       
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
-                    html: //["div",
-                          //["p", "The sentence you just looked at, 'John wonders that Mary is a singer', should be an impossible sentence for native English speakers and should receive a score of ", ["<b>1</b>"], " by the standards of this experiment."],
-                          //["p", "Press the spacebar to continue."]]}],
-                          "<p>The sentence you just looked at, 'John wonders that Mary is a singer', should be an impossible sentence for native English speakers and should receive a score of <font color='red'><b>1</b></font> by the standards of this experiment.</p><p>Press the spacebar to continue.</p>"
-                          }],
+                    html: "<p>The sentence you just looked at, 'John wonders that Mary is a singer', should be an impossible sentence for a native English speaker and should receive a score of <q><font color='red'><b>1</b></font></q> by the standards of this experiment.</p><p>Press the spacebar to continue.</p>"}],
                           
     ["practice", aj, {s: "John wonders if Mary is a singer.", 
                       instructions: null}],
                       
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
-                    html: ["div",
-                          ["p", "The sentence you just looked at, 'John wonders if Mary is a singer.', should sound natural for a native speaker and should receive a score of <b>5</b> by the standards of this experiment."],
-                          ["p", "Press the spacebar to continue."]]}],
+                    html: "<p>The sentence you just looked at, 'John wonders if Mary is a singer.', should sound natural for a native speaker and should receive a score of <q><font color='red'><b>5</b></font></q> by the standards of this experiment.</p><p>Press the spacebar to continue.</p>"}],
                           
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
                     html: ["div",
@@ -77,17 +71,13 @@ var items = [
                       instructions: "Whenever you see '{i}', you must read the sentence in the way that everything indexed with '{i}' covaries with each other. Here, you must take the reading 'for every x, x a boy, x likes x's mother.'"}],
                       
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
-                    html: ["div",
-                          ["p", "The sentence you just looked at, 'Every boy{i} likes his{i} mother.', should sound natural for a native speaker given the intended interpretation and should receive a score of 5 by the standards of this experiment."],
-                          ["p", "Press the spacebar to continue."]]}],
+                    html: "<p>The sentence you just looked at, 'Every boy{i} likes his{i} mother.', should sound natural for a native speaker and should receive a score of <q><font color='red'><b>5</b></font></q> by the standards of this experiment.</p><p>Press the spacebar to continue.</p>"}],
     
     ["practice", aj, {s: "His{i} mother like every boy{i}.",
                       instructions: "Whenever you see '{i}', you must read the sentence in the way that everything indexed with '{i}' covaries with each other. Here, you must take the reading 'for every x, x a boy, x's mother likes x.'"}],
     
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
-                    html: ["div",
-                          ["p", "The sentence you just looked at, 'His{i} mother like every boy{i}', should be an impossible sentence for native English speakers given the intended interpretation and should receive a score of 1 by the standards of this experiment."],
-                          ["p", "Press the spacebar to continue."]]}],
+                    html: "<p>The sentence you just looked at, 'His{i} mother like every boy{i}.', should sound be an impossible sentence for a native speaker and should receive a score of <q><font color='red'><b>1</b></font></q> by the standards of this experiment.</p><p>Press the spacebar to continue.</p>"}],
                           
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
                     html: ["div",
@@ -102,17 +92,13 @@ var items = [
                       instructions: "Whenever you see '[i]' in a sentence, you must interpret the sentence in such a way that everything indexed with '[i]' refers to the same person. Here, 'him' must refer to John."}],
                       
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
-                    html: ["div",
-                          ["p", "The sentence you just looked at, 'John[i] thinks that Peter likes him[i].', should sound natural for a native speaker given the intended interpretation and should receive a score of 5 by the standards of this experiment."],
-                          ["p", "Press the spacebar to continue."]]}],
+                    html: "<p>The sentence you just looked at, 'John[i] thinks that Peter likes him[i].', should sound natural for a native English speaker given the intended interpretation and should receive a score of <q><font color='red'><b>5</b></font></q> by the standards of this experiment.</p><p>Press the spacebar to continue.</p>"}],
     
     ["practice", aj, {s: "He[i] thinks that Peter likes John[i].",
                       instructions: "Whenever you see '[i]' in a sentence, you must interpret the sentence in such a way that everything indexed with '[i]' refers to the same person. Here, 'he' must refer to John."}],
     
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
-                    html: ["div",
-                          ["p", "The sentence you just looked at, 'He[i] thinks that Peter likes John[i].', should be an impossible sentence for native English speakers given the intended interpretation and should receive a score of 1 by the standards of this experiment."],
-                          ["p", "Press the spacebar to continue."]]}],
+                    html: "<p>The sentence you just looked at, 'He[i] thinks that Peter likes John[i].', should be an impossible sentence for a native English speaker given the intended interpretation and should receive a score of <q><font color='red'><b>1</b></font></q> by the standards of this experiment.</p><p>Press the spacebar to continue.</p>"}],
                       
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
                     html: ["div",
