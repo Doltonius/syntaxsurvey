@@ -49,7 +49,7 @@ var items = [
                       
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
                     html: ["div",
-                          ["p", "The sentence you just looked at, 'John wonders that Mary is a singer', should be an impossible sentence for native English speakers and should receive a score of ", ["<font color='red'><b>1</b></font>"], " by the standards of this experiment."],
+                          ["p", "The sentence you just looked at, 'John wonders that Mary is a singer', should be an impossible sentence for native English speakers and should receive a score of ", ["<b>1</b>"], " by the standards of this experiment."],
                           ["p", "Press the spacebar to continue."]]}],
                           
     ["practice", aj, {s: "John wonders if Mary is a singer.", 
