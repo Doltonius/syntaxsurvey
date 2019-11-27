@@ -49,7 +49,7 @@ var items = [
                       
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
                     html: ["div",
-                          ["p", "The sentence you just looked at, 'John wonders that Mary is a singer', should be an impossible sentence for native English speakers and should receive a score of 1 by the standards of this experiment."],
+                          ["p", "The sentence you just looked at, 'John wonders that Mary is a singer', should be an impossible sentence for native English speakers and should receive a score of <b>1</b> by the standards of this experiment."],
                           ["p", "Press the spacebar to continue."]]}],
                           
     ["practice", aj, {s: "John wonders if Mary is a singer.", 
@@ -57,7 +57,7 @@ var items = [
                       
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
                     html: ["div",
-                          ["p", "The sentence you just looked at, 'John wonders if Mary is a singer.', should sound natural for a native speaker and should receive a score of 5 by the standards of this experiment."],
+                          ["p", "The sentence you just looked at, 'John wonders if Mary is a singer.', should sound natural for a native speaker and should receive a score of <b>5</b> by the standards of this experiment."],
                           ["p", "Press the spacebar to continue."]]}],
                           
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
