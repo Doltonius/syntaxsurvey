@@ -1,4 +1,4 @@
-var shuffleSequence = seq("setcounter","intro","practice", "presep", sepWith("sep", rshuffle(endsWith("A"), endsWith("2"), endsWith("3"), startsWith("F"))), "exit");
+var shuffleSequence = seq("setcounter","intro","practice", "presep", sepWith("sep", rshuffle(startsWith("1"), endsWith("2"), endsWith("3"), startsWith("F"))), "exit");
 var practiceItemTypes = ["practice"];
 
 //var progressBarText = "Your current progress"
