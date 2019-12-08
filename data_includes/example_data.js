@@ -177,7 +177,7 @@ var items = [
 ["F5", aj, {s: "Which portrait of Mary do you think that he will buy?"}],
 ["F1", aj, {s: "Which portrait of Mary does he think that has been selling very well?"}],
 ["F5", aj, {s: "Which painting of Peter does she believe that my father will purchase?"}],
-["F1", aj, {s: "Which painting of Peter does she believe if my father will purchase?"}],
+["F1", aj, {s: "Which painting of Peter does she believe if my father will purchase?"}]
 
 
 
