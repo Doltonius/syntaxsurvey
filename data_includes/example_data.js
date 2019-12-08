@@ -102,7 +102,7 @@ var items = [
                       
     ["practice", "Message", {consentRequired: false, transfer: "keypress",
                     html: ["div",
-                          ["p", "The practice session is over now. We will now start the experiment. Remember that in cases of uncertainties, go with your first instinct. Please press the spacebar to continue."],
+                          ["p", "The practice session is over now. We will now start the experiment. Remember that in cases of uncertainties, go with your first instinct. Please press the spacebar to continue."]
                           ]}],
 
 
@@ -178,7 +178,5 @@ var items = [
 ["F1", aj, {s: "Which portrait of Mary does he think that has been selling very well?"}],
 ["F5", aj, {s: "Which painting of Peter does she believe that my father will purchase?"}],
 ["F1", aj, {s: "Which painting of Peter does she believe if my father will purchase?"}]
-
-
 
 ];
