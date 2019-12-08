@@ -1,4 +1,4 @@
-var shuffleSequence = seq("setcounter","intro","practice", "presep", sepWith("sep", rshuffle(endsWith("A"), startsWith("1"), endsWith("2"), endsWith("3"), startsWith("F"))), "exit");
+var shuffleSequence = seq("setcounter","intro","practice", "presep", sepWith("sep", rshuffle(startsWith("1"), startsWith("F"))), "exit");
 var practiceItemTypes = ["practice"];
 
 //var progressBarText = "Your current progress"
@@ -109,7 +109,7 @@ var items = [
     ["presep", Separator, { transfer: 2000, normalMessage: "Please get ready. We will start. Please wait..." }],
 
     
-["1A-2N-3W-4G-1-A", aj, {s: "Which picture of himself did Mary think that John saw?"}],
+["1A-2N-3W-4G-1", aj, {s: "Which picture of himself did Mary think that John saw?"}],
 ["1A-2N-3W-4R-1", aj, {s: "Which picture of himself did Mary think that John saw it?"}],
 ["1V-2N-3W-4G-1", aj, {s: "Which girl in his{i} class did every teacher{i} think that you like?"}],
 ["1V-2N-3W-4R-1", aj, {s: "Which girl in his{i} class did every teacher{i} think that you like her?"}],
